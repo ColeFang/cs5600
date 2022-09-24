@@ -1,0 +1,6 @@
+# ninja log v5
+0	2494	1645004257048438174	CMakeFiles/ELFTester.dir/src/main.cpp.o	3233434c5bf72668
+1	4923	1645004259472363429	ext/googletest/build/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	16c40f0148fef2b4
+1	64	1645004397320906565	ext/googletest/build/googlemock/gtest/libgtestd.a	be4d093f6431502b
+1	103	1645004397368905610	CMakeFiles/ELFTester.dir/answer/answer.c.o	3080714cc78fa53c
+103	353	1645004397612900756	ELFTester	99ba7748a26c0dc1

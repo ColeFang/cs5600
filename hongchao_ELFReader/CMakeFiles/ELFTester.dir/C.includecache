@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hongchao/Desktop/ELFReader/answer/answer.c
+stdlib.h
+-
+answer.h
+/home/hongchao/Desktop/ELFReader/answer/answer.h
+sys/mman.h
+-
+sys/stat.h
+-
+unistd.h
+-
+fcntl.h
+-
+string.h
+-
+stdio.h
+-
+
+/home/hongchao/Desktop/ELFReader/answer/answer.h
+test_elf.h
+/home/hongchao/Desktop/ELFReader/answer/test_elf.h
+
+include/test_elf.h
+stdint.h
+-
+

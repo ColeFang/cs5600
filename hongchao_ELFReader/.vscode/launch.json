@@ -1,0 +1,35 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug ELFTester",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceRoot}/ELFTester",
+      "cwd": "${workspaceRoot}",
+      "args": ["-fThreading"],
+      "stopAtEntry": false,
+      "environment": [],
+      "externalConsole": false,
+      "windows": {
+        "program": "${command:extension.vscode-wsl-workspaceFolder}/ELFTester",
+        "cwd": "${command:extension.vscode-wsl-workspaceFolder}",
+        "MIMode": "gdb",
+        "setupCommands": [{
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }],
+        "pipeTransport": {
+          "pipeCwd": "",
+          "pipeProgram": "c:\\windows\\sysnative\\bash.exe",
+          "pipeArgs": ["-c"],
+          "debuggerPath": "/usr/bin/gdb"
+        },
+        "sourceFileMap": {
+          "${command:extension.vscode-wsl-workspaceFolder}": "${workspaceRoot}"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/hongchao/Desktop/ELFReader/cmake-build-debug/ext/googletest/download/CMakeFiles/googletest"
+		},
+		{
+			"file" : "/home/hongchao/Desktop/ELFReader/cmake-build-debug/ext/googletest/download/CMakeFiles/googletest.rule"
+		},
+		{
+			"file" : "/home/hongchao/Desktop/ELFReader/cmake-build-debug/ext/googletest/download/CMakeFiles/googletest-complete.rule"
+		},
+		{
+			"file" : "/home/hongchao/Desktop/ELFReader/cmake-build-debug/ext/googletest/download/googletest-prefix/src/googletest-stamp/googletest-build.rule"
+		},
+		{
+			"file" : "/home/hongchao/Desktop/ELFReader/cmake-build-debug/ext/googletest/download/googletest-prefix/src/googletest-stamp/googletest-configure.rule"
+		},
+		{
+			"file" : "/home/hongchao/Desktop/ELFReader/cmake-build-debug/ext/googletest/download/googletest-prefix/src/googletest-stamp/googletest-download.rule"
+		},
+		{
+			"file" : "/home/hongchao/Desktop/ELFReader/cmake-build-debug/ext/googletest/download/googletest-prefix/src/googletest-stamp/googletest-install.rule"
+		},
+		{
+			"file" : "/home/hongchao/Desktop/ELFReader/cmake-build-debug/ext/googletest/download/googletest-prefix/src/googletest-stamp/googletest-mkdir.rule"
+		},
+		{
+			"file" : "/home/hongchao/Desktop/ELFReader/cmake-build-debug/ext/googletest/download/googletest-prefix/src/googletest-stamp/googletest-patch.rule"
+		},
+		{
+			"file" : "/home/hongchao/Desktop/ELFReader/cmake-build-debug/ext/googletest/download/googletest-prefix/src/googletest-stamp/googletest-test.rule"
+		},
+		{
+			"file" : "/home/hongchao/Desktop/ELFReader/cmake-build-debug/ext/googletest/download/googletest-prefix/src/googletest-stamp/googletest-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest"
+		],
+		"name" : "googletest"
+	}
+}

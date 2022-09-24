@@ -1,0 +1,9 @@
+e8489e3317883bb58c9446e36139b62c  answer/answer.h
+2b82a184a9a84c6a9b7e97682ca60073  testFiles/ELFTest
+9a83db66324ca52dbd4715109e2d08b3  testFiles/libgcc_s.so.1
+e7793f15c2ff7e747b4bc7079f5cd4f7  testFiles/ls
+35319153870c4a7048db0580ad21337a  src/elf_common_cpp.h
+cd0108efe17158266e9cb854037e3412  src/main.cpp
+417d6a55b2af68bc39b6c20c3d55043b  evaluate.sh
+0151dcaaeaecdd6f05c1e2da1d0486bf  lib/apple/libELFReader.a
+b055db75317c36db04b62a349a350fc4  lib/linux/libELFReader.a

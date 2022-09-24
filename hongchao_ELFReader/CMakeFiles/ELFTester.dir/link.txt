@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ELFTester.dir/src/main.cpp.o CMakeFiles/ELFTester.dir/answer/answer.c.o  -o ELFTester   -L/home/hongchao/Desktop/ELFReader/./lib/linux  -Wl,-rpath,/home/hongchao/Desktop/ELFReader/./lib/linux -Wl,-Bstatic -lELFReader ext/googletest/build/googlemock/gtest/libgtestd.a -Wl,-Bdynamic -lpthread -pthread 

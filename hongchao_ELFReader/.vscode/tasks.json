@@ -1,0 +1,45 @@
+{
+  "version": "2.0.0",
+  "tasks": [{
+      "label": "Build",
+      "type": "shell",
+      "command": "cmake -build '${workspaceRoot}'",
+      "windows": {
+        "command": "cmake --build \"$(wslpath '${workspaceRoot}')\"",
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Test",
+      "type": "shell",
+      "command": "./ELFTester",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Test with valgrind",
+      "type": "shell",
+      "command": "valgrind ./ELFTester",
+      "group": "test"
+    },
+    {
+      "label": "Check integrity",
+      "type": "shell",
+      "command": "md5sum --check integrity.md5",
+      "group": "test"
+    }
+  ],
+  "windows": {
+    "options": {
+      "shell": {
+        "executable": "C:\\WINDOWS\\System32\\wsl.exe"
+      },
+      "args": []
+    }
+  }
+}
